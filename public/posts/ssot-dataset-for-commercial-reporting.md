@@ -14,7 +14,7 @@ author: Pieter Custers
 * Reproducability (past-tables)
 * Discussion should be about the content, not the data (statuspage.io, funnel, logging, show graph of evolution of sales on specific date)
 * Maintainability ("unittests", cleaning)
-* Reliability (transparent, consistent, statuspage.io)
+* Reliability (transparent, consistent, statuspage.io/monitoring)
 * Scaleability?
 
 #### Evolutionary phases of a BI/DA team
@@ -49,4 +49,23 @@ author: Pieter Custers
 - enrich the data (scg, ffbi)
 
 # Article
+
+You know the company you work for is outgrowing its start-up phase the moment somebody drops the line "It looks like we are actually becoming a real company" without smiling. The data department should be ahead of this. Because when the business grows fast, the need for more reliable data grows faster, and you can't afford lagging behind events.
+
+Looking back at the process within Vandebron, I conclude we would not have done things differently. However with the insights of today, I'd have argued to do things earlier (and so I advise you: start today).
+
+We spent tons of valuable time on questions like: 
+* We made 10 sales yesterday, why does the dashboard show only 9?
+* Previous time you reported 1000 sales for last January, why do you report 970 sales for January now? 
+* The dashboard shows no data, what's going on?
+
+And we would have avoided that by early-on creating a dataset that serves as a Single-Source-Of-Truth (SSOT).
+
+Still, after outgrowing the start-up and scale-up phase, - as a data team we can now focus on predictive modelling instead of historical reporting for most of our time - these datasets are the essential basis of our commercial dashboards, reports and models.
+
+## SSOT dataset for commercial reporting
+
+A well designed dataset meet the following requirements:
+* 
+
 
